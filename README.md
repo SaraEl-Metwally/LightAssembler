@@ -43,7 +43,7 @@ LightAssembler also reports the following on the screen:
 
 Also, by using the ```--verbose``` option, LightAssembler reports additional details for each step such as the number of kmers, the false positive rate of Bloom filter and the number of branching kmers in the dataset, average read length and the average sequencing coverage.
 
-#### Example
+#### Example 1
 ``` ./LightAssembler -k 31 -g 15 -e 0.01 -G 4686137 -o ecoli_contigs -t 3 ecoli_reads_1.fq ecoli_reads_2.fq --verbose ```
 
 ```
@@ -79,3 +79,4 @@ Also, by using the ```--verbose``` option, LightAssembler reports additional det
 
 --- h(0):m(0):s(31) elapsed time.```
 
+#### Example 2 (missing -g )
