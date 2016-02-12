@@ -26,10 +26,12 @@ LightAssembler assembles multiple input files of the sequencing reads given in *
 The output of LightAssembler is the set of assembled contigs in ***fasta*** format, in the file:
 
 ``` [output prefix].contigs.fasta ``` 
+
 LightAssembler also reports the following on the screen:
--Number of resulted contigs.
--Maximum contig length.
--Total Assembly size.
--Total genome coverage.
--Total Assembly time as well as the total time for each step.
+
+- Number of resulted contigs.
+- Maximum contig length.
+- Total Assembly size.
+- Total genome coverage.
+- Total Assembly time as well as the total time for each step.
 
