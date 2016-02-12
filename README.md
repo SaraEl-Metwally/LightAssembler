@@ -20,4 +20,4 @@ Lightweight resources assembly algorithm for high-throughput sequencing reads.
 ``` 
 
 #### Inputs 
-LightAssembler assembles multiple input files of sequencing reads given in **fasta/fastq format**. Also, LightAssembler can read directly the input files compressed with gzip **fasta.gz/fastq.gz**.
+LightAssembler assembles multiple input files of sequencing reads given in **fasta/fastq** format. Also, LightAssembler can read directly the input files compressed with gzip **fasta.gz/fastq.gz**.
