@@ -24,5 +24,6 @@ LightAssembler assembles multiple input files of the sequencing reads given in *
 
 #### Outputs
 The output of LightAssembler is the set of assembled contigs in ***fasta*** format, in the file:
+
 ``` [output prefix].contigs.fasta ``` 
 
