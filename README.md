@@ -23,7 +23,7 @@ Lightweight resources assembly algorithm for high-throughput sequencing reads.
 #### Notes
 - If the gap size parameter is missing, LightAssembler invokes its parameters extrapolation module to compute the starting gap based on the sequencing coverage and the error rate of the dataset.
 - The maximum read length for this version is ``` 1024 bp```.
-- The maximum supported read files for this version is ```100`` files`.
+- The maximum supported read files for this version is ```100``` files.
 
 #### Input read files 
 LightAssembler assembles multiple input files of the sequencing reads given in ***fasta/fastq*** format. Also, LightAssembler can read directly the input files compressed with gzip ***fasta.gz/fastq.gz***.
