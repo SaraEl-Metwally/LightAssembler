@@ -41,7 +41,7 @@ LightAssembler also reports the following on the screen:
 - Total genome coverage.
 - Total Assembly time as well as the total time for each step.
 
-Also, by using the ```--verbose``` option, LightAssembler reports additional details for each step such as the number of kmers, the false positive rate of Bloom filter and the number of branching kmers in the dataset, average read length and the average sequencing coverage.
+Also, by using the ```--verbose``` option, LightAssembler reports the additional details for each step such as the number of kmers, the false positive rate of Bloom filters and the number of branching kmers in the dataset, the average read length and the average sequencing coverage.
 
 #### Example 1
 ``` ./LightAssembler -k 31 -g 15 -e 0.01 -G 4686137 -o ecoli_contigs -t 3 ecoli_reads_1.fq ecoli_reads_2.fq --verbose ```
