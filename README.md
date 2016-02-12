@@ -25,7 +25,7 @@ Lightweight resources assembly algorithm for high-throughput sequencing reads.
 - The maximum read length for this version is ``` 1024 bp```.
 - The maximum supported read files for this version is ```100``` files.
 
-#### Input read files 
+#### Read files 
 LightAssembler assembles multiple input files of the sequencing reads given in ***fasta/fastq*** format. Also, LightAssembler can read directly the input files compressed with gzip ***fasta.gz/fastq.gz***.
 
 #### Outputs
