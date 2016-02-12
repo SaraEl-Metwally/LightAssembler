@@ -20,6 +20,11 @@ Lightweight resources assembly algorithm for high-throughput sequencing reads.
 * [-o] output prefix file name  [default: LightAssembler]
 ``` 
 
+#### Notes
+- If the gap size parameter is missing, LightAssembler invokes its parameters extrapolation module to compute the starting gap based on the sequencing coverage and the error rate of the dataset.
+- The maximum read length for this version is ``` 1024```.
+- The maximum supported read files for this version ```100```.
+
 #### Input read files 
 LightAssembler assembles multiple input files of the sequencing reads given in ***fasta/fastq*** format. Also, LightAssembler can read directly the input files compressed with gzip ***fasta.gz/fastq.gz***.
 
@@ -40,4 +45,3 @@ Also, by using the ```--verbose``` option, LightAssembler reports additional det
 
 #### Example
 ``` ./LightAssembler -k 31 -g 31 -e 0.01 -G 4686137 -o ecoli_contigs -t 3 ecoli_reads_1.fq ecoli_reads_2.fq --verbose ```
-
