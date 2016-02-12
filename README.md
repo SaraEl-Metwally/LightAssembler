@@ -23,3 +23,6 @@ Lightweight resources assembly algorithm for high-throughput sequencing reads.
 LightAssembler assembles multiple input files of the sequencing reads given in ***fasta/fastq*** format. Also, LightAssembler can read directly the input files compressed with gzip ***fasta.gz/fastq.gz***.
 
 #### Outputs
+The output of LightAssembler is the set of assembled contigs in ***fasta*** format, in the file:
+``` [output prefix].contigs.fasta ``` 
+
