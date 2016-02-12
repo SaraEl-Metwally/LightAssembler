@@ -77,6 +77,49 @@ Also, by using the ```--verbose``` option, LightAssembler reports additional det
 
 --- The assembly session is finished. 
 
---- h(0):m(0):s(31) elapsed time.```
+--- h(0):m(0):s(31) elapsed time. 
+```
 
-#### Example 2 (missing -g )
+#### Example 2 (missing g)
+```
+./LightAssembler -k 31 -e 0.01 -G 4686137 -o ecoli_contigs -t 3 ecoli_reads_1.fq ecoli_reads_2.fq --verbose 
+```
+```
+--- Parameters extrapolation. 
+
+--- h(0):m(0):s(1) elapsed time.
+--- start with gap size g = 4
+--- average read length = 101
+--- average sequencing coverage = 35
+
+--- Uniform kmers sampling. 
+
+--- h(0):m(0):s(8) elapsed time.
+--- total number of kmers in BloomA = 27604568
+--- BloomA false positive rate = 0.0375047
+--- probability of an incorrect kmer appears in the sample : 0.118144
+
+--- Trusted/untrusted kmers filtering. 
+
+--- h(0):m(0):s(9) elapsed time.
+--- total number of kmers in BloomB = 4655530
+--- BloomB false positive rate = 9.1219e-05
+
+--- Branching-kmers computation. 
+
+--- h(0):m(0):s(2) elapsed time.
+--- number of branching kmers = 57242
+
+--- Graph traversal. 
+
+--- h(0):m(0):s(22) elapsed time.
+--- number of contigs     = 747
+--- maximum contig length = 127975
+--- assembly size         = 4474072
+--- genome coverage       = 95.4746%
+
+--- The assembly session is finished. 
+
+--- h(0):m(0):s(42) elapsed time.
+
+```
