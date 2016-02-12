@@ -44,4 +44,38 @@ LightAssembler also reports the following on the screen:
 Also, by using the ```--verbose``` option, LightAssembler reports additional details for each step such as the number of kmers, the false positive rate of Bloom filter and the number of branching kmers in the dataset, average read length and the average sequencing coverage.
 
 #### Example
-``` ./LightAssembler -k 31 -g 31 -e 0.01 -G 4686137 -o ecoli_contigs -t 3 ecoli_reads_1.fq ecoli_reads_2.fq --verbose ```
+``` ./LightAssembler -k 31 -g 15 -e 0.01 -G 4686137 -o ecoli_contigs -t 3 ecoli_reads_1.fq ecoli_reads_2.fq --verbose ```
+
+```
+--- Uniform kmers sampling. 
+
+--- h(0):m(0):s(5) elapsed time.
+--- total number of kmers in BloomA = 7791111
+--- BloomA false positive rate = 0.00193375
+--- average read length = 101
+--- average sequencing coverage = 35
+--- probability of an incorrect kmer appears in the sample : 0.0249524
+
+--- Trusted/untrusted kmers filtering. 
+
+--- h(0):m(0):s(24) elapsed time.
+--- total number of kmers in BloomB = 4548112
+--- BloomB false positive rate = 7.7715e-05
+
+--- Branching-kmers computation. 
+
+--- h(0):m(0):s(5) elapsed time.
+--- number of branching kmers = 54644
+
+--- Graph traversal. 
+
+--- h(0):m(0):s(16) elapsed time.
+--- number of contigs     = 731
+--- maximum contig length = 120924
+--- assembly size         = 4473869
+--- genome coverage       = 95.4703%
+
+--- The assembly session is finished. 
+
+--- h(0):m(0):s(31) elapsed time.```
+
