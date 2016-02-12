@@ -123,3 +123,32 @@ Also, by using the ```--verbose``` option, LightAssembler reports additional det
 --- h(0):m(0):s(42) elapsed time.
 
 ```
+#### Example 3 (without --verbose)
+``` ./LightAssembler -k 31 -g 15 -e 0.01 -G 4686137 -o ecoli_contigs -t 3 ecoli_reads_1.fq ecoli_reads_2.fq --verbose ```
+
+```
+--- Uniform kmers sampling. 
+
+--- h(0):m(0):s(2) elapsed time.
+
+--- Trusted/untrusted kmers filtering. 
+
+--- h(0):m(0):s(11) elapsed time.
+
+--- Branching-kmers computation. 
+
+--- h(0):m(0):s(1) elapsed time.
+
+--- Graph traversal. 
+
+--- h(0):m(0):s(17) elapsed time.
+--- number of contigs     = 731
+--- maximum contig length = 120924
+--- assembly size         = 4473869
+--- genome coverage       = 95.4703%
+
+--- The assembly session is finished. 
+
+--- h(0):m(0):s(31) elapsed time.
+
+```
