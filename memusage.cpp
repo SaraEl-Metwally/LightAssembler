@@ -1,3 +1,4 @@
+/*MEMUSAGE (by Liu Yongchao, liuy@uni-mainz.de) measures the peak virtual and resident memory of a program */
 #include <string>
 #include <iostream>
 #include <fstream>
