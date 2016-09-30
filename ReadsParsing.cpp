@@ -27,7 +27,7 @@ reads_parsing::reads_parsing(std::vector<std::string> file_names)
             }
             else
             {
-              std::cerr<<"--- can not recognize the file foramt "<<file_names[i]<<std::endl;
+              std::cerr<<"--- can not recognize the file format "<<file_names[i]<<std::endl;
               exit(1);
 
             }
