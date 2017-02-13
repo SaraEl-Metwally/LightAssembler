@@ -7,7 +7,6 @@ El-Metwally, S., Zakaria, M. and Hamza, T.; [LightAssembler: fast and memory-eff
 <p align="justify">
 Copyright (C) 2015-2016, and GNU GPL, by Sara El-Metwally, Magdi Zakaria and Taher Hamza.
 </p> 
-
 #### System requirements 
 64-bit machine with g++ compiler or gcc in general, [pthreads](http://en.wikipedia.org/wiki/POSIX_Threads),and [zlib](http://en.wikipedia.org/wiki/Zlib) libraries.
 
