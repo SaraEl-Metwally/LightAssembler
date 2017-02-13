@@ -2,7 +2,6 @@
 <p align="justify">
 Lightweight resources assembly algorithm for high-throughput sequencing reads. It uses a pair of cache oblivious Bloom filters, one holding a uniform sample of g-spaced sequenced kmers and the other holding kmers classified as likely correct, using a simple statistical test. LightAssembler contains a light implementation of the graph traversal and simplification modules that achieves comparable assembly accuracy and contiguity to other competing tools, more details about LightAssembler can be found in : 
 </p> 
-<br />
 El-Metwally, S., Zakaria, M. and Hamza, T.; [LightAssembler: fast and memory-efficient assembly algorithm for high-throughput sequencing reads](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btw470). Bioinformatics 2016; 32 (21): 3215-3223. doi: 10.1093/bioinformatics/btw470.
 <br />
 <p align="justify">
